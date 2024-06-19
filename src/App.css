@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgcontainer {
+  background-color: hsl(229, 48%, 84%);
+  background-size: cover;
+  padding: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  min-height: 100vh;
+}
+
+.applogo {
+  width: 100px;
+}
+
+.FormContainer {
+  background-color: #7683cb;
+  display: flex;
+  width: 800px;
+  height: 350px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.formImg-lg {
+  width: 300px;
+}
